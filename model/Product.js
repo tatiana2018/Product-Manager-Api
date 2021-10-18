@@ -1,5 +1,3 @@
-"use strict";
-
 const mongoose = require("mongoose");
 
 const ProductSchema = mongoose.Schema({
@@ -48,7 +46,7 @@ const ProductSchema = mongoose.Schema({
     require: true,
     trim: true
   },
-  Image: {
+  image: {
     type: String,
     require: true,
     trim: true
